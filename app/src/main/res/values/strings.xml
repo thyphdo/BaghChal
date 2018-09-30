@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BaghChal</string>
+    <string name="numPlayer">Welcome to BaghChal!</string>
+    <string name="start">Start</string>
+    <string name="instructions">Instructions</string>
+    <string name="player_1">Computer AI</string>
+    <string name="player_2">Pass and Play</string>
+    <string name="ask">Level of Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="easyDes">Number of Goats: 20</string>
+    <string name="mediumDes">Number of Goats: 18</string>
+    <string name="hardDes">Number of Goats: 16</string>
+    <string name="reset">Reset</string>
+
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="@string/easyDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/easyDes"
+        android:textSize="18sp"
+        android:textColor="@color/Title_color"
+        android:layout_below="@+id/easyButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="@string/mediumDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mediumDes"
+        android:textSize="18sp"
+
+        android:textColor="@color/Title_color"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mediumButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_above="@+id/easyButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp" />
+
+    <Button
+        android:text="@string/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/easyButton"
+        android:layout_marginTop="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/hardDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hardDes"
+        android:textSize="18sp"
+        android:textColor="@color/Title_color"
+        android:layout_below="@+id/mediumDes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    <Button
+        android:text="@string/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mediumButton"
+        android:layout_below="@+id/easyDes"
+        android:layout_alignLeft="@+id/easyButton"
+        android:layout_alignStart="@+id/easyButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="@string/ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ask"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/GameName_color"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="@string/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hardButton"
+        android:layout_below="@+id/mediumDes"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

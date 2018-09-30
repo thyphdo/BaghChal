@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="baghcal.com.bagchal.MainActivity">
+
+    <TextView
+        android:text="@string/numPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_marginTop="45dp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/GameName_color"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:text="@string/player_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ComAIButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/Text_color"
+        android:textColorHighlight="@color/colorAccent"
+        android:layout_marginTop="110dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/PPButton"
+        android:layout_alignStart="@+id/PPButton"
+        android:layout_alignRight="@+id/PPButton"
+        android:layout_alignEnd="@+id/PPButton" />
+
+    <Button
+        android:text="@string/player_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PPButton"
+        android:background="?attr/colorPrimary"
+        android:textColor="@color/Text_color"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/ComAIButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
